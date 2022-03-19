@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>RUGMABA DAVID</title>
+    <link rel="stylesheet" href="style.css">
+    <!---I HAVE LINKE CSS FILE----->
+</head>
+<body>
+	
+    <div class="full-page">
+        <div class="navbar">
+            <div>
+                <a href='website.html'>RUGAMBA DAVID</a>
+            </div>
+            <nav>
+                <ul id='MenuItems'>
+                    <li><a href='HTML.html'>Home</a></li>
+                    <li><a href='about.html'>About Us</a></li>
+                    <li><a href='Table.html'>Services</a></li>
+                    <li><a href='Form.html'>Contact</a></li>
+                    <li><button class='loginbtn' onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">Login</button></li>
+                </ul>
+            </nav>
+        </div>
+        <form style="color: black;width: 70%;background-color: lightcyan;font-weight: bold; padding-left: 4%; margin-left:10%;font-size: 25px;">
+		<br>
+		<h2 style="color: black;font-family:times new roman;text-align: center; ">Our Customer Information</h2>
+		<form style="border: groove ;border-radius: 2%; border-width: 10px;">
+			First Name:<input type="text" placeholder="enter your first name" name="mname">
+			Last Name:<input type="text" placeholder="enter your last name" name="mname"><br>
+			Email     <input type="text" placeholder="enter your email" name="mname">
+		<br>
+		Age<input type="text" placeholder="18" name="age"><br><br>
+			
+		Gender:<br>
+			<input type="radio" name="Gender" value="Male">Male <input type="radio" name="Gender" value="Female">Female<br>
+		Products<br>
+			<input type="radio" name="Course" value="Computer">Computer <input type="radio" name="Course" value="Medecine">Tablet
+			<input type="radio" name="Course" value="Phone">Phone <input type="radio" name="Course" value="BME">Television
+			<input type="radio" name="Course" value="Other">Other<br>
+		Hobbies<br>
+			<input type="checkbox" name="category" value="Computer">Computer
+			<input type="checkbox" name="category" value="Phone">Phone
+			<input type="checkbox" name="category" value="Projector">Projector
+			<input type="checkbox" name="category" value="Printers">Projector<br>
+			<input type="checkbox" name="category" value="Others">Others<br>
+
+		Home District
+			<select>
+				<option value="District"> District</option>
+				<option value="District">Nyarugenge</option>
+				<option value="District">Gasabo</option>
+				<option value="District">Kicukiro</option>
+			</select>
+			<br><br>
+			Bio<textarea>Please add your Bio Data here</textarea><br>
+				<input type="Submit" value="register" style="margin-left: 65px;">
+				</form>
+        
+</body>
+</html>

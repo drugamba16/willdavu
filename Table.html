@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>RUGMABA DAVID</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!---I HAVE LINKE CSS FILE----->
+
+</head>
+<body>
+	<style type="text/css">
+
+    *{font-size: 25px; background-color: none;}
+    li{float: left; width: 200px;background-color: #1C2833; list-style: none; border-left: 1px solid white;
+        text-align: center; border: 1px solid white; }
+    a{text-decoration: none; display: block; background-color: #80116F; color: white;}
+    li a:hover {background-color: yellow; color: red;}
+    #x{padding: 0px;}
+    #m{position: relative; left: 199px; padding: 0px; bottom: 28px;}
+    #p{height: 28.3px;}
+    #n{padding: 0px;}
+    li li {display: none; border-left: 1px solid white;}
+    li:hover li{display: block;}
+    li li dt{display: none;}
+    li li:hover dt{display: block;}
+
+
+    </style>
+    <div class="full-page">
+        <div class="navbar">
+            <div>
+                <a href='website.html'>RUGAMBA DAVID</a>
+            </div>
+            <nav>
+                <ul id='MenuItems'>
+                    <li><a href='HTML.html'>Home</a></li>
+                    <li><a href='about.html'>About Us</a></li>
+                    <li><a href='Table.html'>Services</a>
+                    <ul id="x">
+            <li id="p"><a href="#">Phones</a>
+                <ul id="m">
+                <dt id="n"><li><a href="#">Tecno</a></li>
+                   <li><a href="#">iPhone</a></li>
+                   <li><a href="#">Samsung</a>
+                </dt>
+                </ul>
+
+            </li>
+            <li><a href="#">Cars</a></li>
+            <li><a href="#">Watches</a> 
+        </ul></li>
+                    <li><a href='Form.html'>Contact</a></li>
+                    <li><button class='loginbtn' onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">Login</button></li>
+                </ul>
+            </nav>
+            
+        </div>
+        <table border="1" ; style="border-collapse: collapse;width: 92%; height: 70%; border-color:green;border-radius: 20px; background-color:lightgreen; margin-left: 4%; font-size: 35px;">
+<th>Category<th>NAME<th>Duration<th colspan="2">Room and Amount</th>
+<tr><td rowspan="2">COMPUTERS <td>LAPTOP</td><td>2 weeks</td><td>CR102</td><td>70,000</td></td></tr>
+<tr><td>DESKTOP</td><td>2 years</td><td>Lab 201</td><td>650,000</td></tr>
+<tr><td rowspan="2">Phones</td><td>simple phones</td><td>6 weeks</td><td rowspan="2">CR201</td><td>120,000</td></tr>
+<tr><td>Smart Phones</td><td>5 weeks</td><td>130,000</td></tr>
+<tr><td rowspan="2">Printers</td><td>simple printers </td><td>2 months</td><td>CL103</td><td>110,000</td></tr>
+<tr><td>smart printers</td><td>3 months</td><td>CL102</td><td>160,000</td></tr>
+</table>
+<div style="background-color: black; color: white;"><script type="text/javascript">
+function digits(){
+let sum=0;
+for( var n = 1 ; n <= 24 ; n++ ){
+document.write(n+" ");
+}}
+digits();
+</script></div>
+
+        
+</body>
+</html>
